@@ -130,3 +130,8 @@ autocmd VimEnter * NERDTreeTabsToggle
 " move to right window on startup
 
 autocmd VimEnter * wincmd l
+
+
+" leader + b to run :NERDTreeFind
+
+map <Leader>b :NERDTreeFind<CR>
