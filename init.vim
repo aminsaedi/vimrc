@@ -135,3 +135,7 @@ autocmd VimEnter * wincmd l
 " leader + b to run :NERDTreeFind
 
 map <Leader>b :NERDTreeFind<CR>
+
+" press leader two times to run :nohlsearch
+
+nnoremap <leader><leader> :nohlsearch<CR>
